@@ -1,0 +1,27 @@
+@startuml
+
+start
+:Display (Tampilkan menu);
+        if (Menu makanan) then (case 1)
+                :1.Bakso (13.000);
+                :2.Mie Ayam (15.000);
+                :3.Soto Ayam (20.000);
+                :Input pilihan(1/2/3);
+                :input (qty);
+        if (Menu minuman) then (case2)
+                :1.Air Putih (7.000);
+                :2.Es Teh Hangat (13.000);
+                :3.Teh Botol (11.000);
+                :Input pilihan(1/2/3);
+                :input (qty);
+        if (Menu dessert) then (case3)
+                :1.Es Campur (12.000);
+                :2.Es Cendol (11.000);
+                :3.Es Krim (10.000);
+                :Input pilihan(1/2/3);
+                :input (qty);
+        endif
+        :Total keseuruhan;
+stop
+
+@enduml
