@@ -39,21 +39,22 @@ for (i = l; i <= _; i++){
 Pecahkan perulangan di atas, berikan penjelasan terhadap program tersebut dan keluaran dari program tersebut!
 # JAWABAN
 ## Penjelasan Program
-Deklarasi Variabel: n: Menyimpan jumlah baris yang dimasukkan oleh pengguna.
-a, i, b: Variabel untuk kontrol perulangan.
-Input Pengguna: Meminta pengguna untuk memasukkan jumlah baris dan menyimpannya dalam variabel n.
-Perulangan Luar (for (i = 1; i <= n; i++)):
-i dimulai dari 1 dan bertambah hingga mencapai n.
-Setiap iterasi dari loop ini mencetak satu baris dari pola. 
-Perulangan Dalam 1 (for (a = 1; a <= i; a++)):
-Perulangan ini mencetak spasi (" ") sebanyak nilai i.
-Fungsi ini adalah untuk mengatur jarak atau indentasi dari karakter yang akan dicetak di setiap baris.
-Perulangan Dalam 2 (for (b = 1; b <= i; b++)):
-Perulangan ini mencetak karakter * sebanyak nilai i.
-Ini menciptakan pola bintang yang meningkat seiring dengan bertambahnya baris.
-Baris Baru: cout << "\n"; Mencetak baris baru setelah selesai dengan satu iterasi penuh dari loop luar.
-Keluaran dari Program
-Jika pengguna memasukkan n = 5, maka keluaran program akan menghasilkan pola seperti berikut: JAWABAN ANDA(soal3.cpp)
+1. Deklarasi Variabel: 
+- n: Menyimpan jumlah baris yang dimasukkan oleh pengguna.
+- a, i, b: Variabel untuk kontrol perulangan.
+2. Input Pengguna: Meminta pengguna untuk memasukkan jumlah baris dan menyimpannya dalam variabel n.
+3. Perulangan Luar (for (i = 1; i <= n; i++)):
+- i dimulai dari 1 dan bertambah hingga mencapai n.
+- Setiap iterasi dari loop ini mencetak satu baris dari pola. 
+4. Perulangan Dalam 1 (for (a = 1; a <= i; a++)):
+- Perulangan ini mencetak spasi (" ") sebanyak nilai i.
+- Fungsi ini adalah untuk mengatur jarak atau indentasi dari karakter yang akan dicetak di setiap baris.
+5. Perulangan Dalam 2 (for (b = 1; b <= i; b++)):
+- Perulangan ini mencetak karakter * sebanyak nilai i.
+- Ini menciptakan pola bintang yang meningkat seiring dengan bertambahnya baris.
+6. Baris Baru: cout << "\n"; Mencetak baris baru setelah selesai dengan satu iterasi penuh dari loop luar.
+- Keluaran dari Program
+- Jika pengguna memasukkan n = 5, maka keluaran program akan menghasilkan pola seperti berikut: JAWABAN ANDA(soal3.cpp)
 
 # Soal 4
 4. Buatlah program sederhana dengan hasil akhir seperti berikut:
